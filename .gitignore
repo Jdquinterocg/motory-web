@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.aws-sam/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+coverage/
+.vite/
+*.tsbuildinfo
+.amplify/
+packages/web/dist/
+packages/api/dist/
+packages/shared/dist/
+packages/api/vendor/
