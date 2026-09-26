@@ -175,7 +175,7 @@ Stack: `motory-inventory` (perfil AWS default / jdquintero)
 
 | Recurso | URL / nombre |
 |---------|----------------|
-| Web | http://motory-inventory-web.s3-website-us-east-1.amazonaws.com |
+| Web | https://main.dwxu5smcu1m2v.amplifyapp.com |
 | API | https://ze0xqvodd2.execute-api.us-east-1.amazonaws.com/Prod |
 | Logo (S3) | https://motory-inventory-assets.s3.us-east-1.amazonaws.com/brand/logo.jpg |
 | Assets bucket | `motory-inventory-assets` |
