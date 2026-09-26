@@ -12,4 +12,4 @@ capabilities = "CAPABILITY_IAM"
 confirm_changeset = false
 resolve_s3 = true
 region = "us-east-1"
-parameter_overrides = "CorsOrigins="http://localhost:5173,http://127.0.0.1:5173,http://motory-inventory-web.s3-website-us-east-1.amazonaws.com""
+parameter_overrides = "CorsOrigins="http://localhost:5173,http://127.0.0.1:5173,https://main.dwxu5smcu1m2v.amplifyapp.com""

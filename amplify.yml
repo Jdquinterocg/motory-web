@@ -5,24 +5,15 @@ applications:
       phases:
         preBuild:
           commands:
-            - cd ../.. && npm ci
-            - cd ../.. && npm run build -w @motory/shared
+            - npm ci --prefix ../..
+            - npm run build -w @motory/shared --prefix ../..
         build:
           commands:
             - npm run build
       artifacts:
         baseDirectory: dist
         files:
-          - "**/*"
+          - '**/*'
       cache:
         paths:
           - ../../node_modules/**/*
-      customHeaders:
-        - pattern: "**/*"
-          headers:
-            - key: Cache-Control
-              value: public, max-age=0, must-revalidate
-      redirects:
-        - source: "</^[^.]+$|\\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|woff2|ttf|map|json|webp)$)([^.]+$)/>"
-          target: /index.html
-          status: 200

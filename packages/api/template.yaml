@@ -17,7 +17,6 @@ Globals:
         SALES_TABLE: !Ref SalesTable
         CORS_ORIGINS: !Ref CorsOrigins
         ASSETS_BUCKET: !Ref AssetsBucket
-        ASSETS_BASE_URL: !Sub "https://${AssetsBucket}.s3.${AWS::Region}.amazonaws.com"
 
 Parameters:
   CorsOrigins:
